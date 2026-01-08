@@ -1,0 +1,139 @@
+{
+  "strategies": [
+    {
+      "strategy_id": "S1",
+      "instrument": "NIFTY",
+      "entry_condition": "price > 20100",
+      "exit_condition": "price < 20050 OR time >= 15:20",
+      "quantity": 50,
+      "max_loss": 2000,
+      "max_profit": 3000
+    },
+    {
+      "strategy_id": "S2",
+      "instrument": "NIFTY",
+      "entry_condition": "price > 20000",
+      "exit_condition": "price > 999999",
+      "quantity": 75,
+      "max_loss": 15000,
+      "max_profit": 25000
+    },
+    {
+      "strategy_id": "S3",
+      "instrument": "BANKNIFTY",
+      "entry_condition": "price > 45000",
+      "exit_condition": "price < 44800",
+      "quantity": 25,
+      "max_loss": 3000,
+      "max_profit": 4000
+    },
+    {
+      "strategy_id": "S4",
+      "instrument": "BANKNIFTY",
+      "entry_condition": "price < 44900",
+      "exit_condition": "price > 45200",
+      "quantity": 30,
+      "max_loss": 2000,
+      "max_profit": 3500
+    },
+    {
+      "strategy_id": "S5",
+      "instrument": "NIFTY",
+      "entry_condition": "price > 20120",
+      "exit_condition": "price < 20080",
+      "quantity": 100,
+      "max_loss": 2500,
+      "max_profit": 4000
+    },
+    {
+      "strategy_id": "S6",
+      "instrument": "FINNIFTY",
+      "entry_condition": "price > 19500",
+      "exit_condition": "price < 19450",
+      "quantity": 40,
+      "max_loss": 1800,
+      "max_profit": 2800
+    },
+    {
+      "strategy_id": "S7",
+      "instrument": "NIFTY",
+      "entry_condition": "price > 20150",
+      "exit_condition": "price < 20100",
+      "quantity": 60,
+      "max_loss": 2200,
+      "max_profit": 3200
+    },
+    {
+      "strategy_id": "S8",
+      "instrument": "BANKNIFTY",
+      "entry_condition": "price > 45100",
+      "exit_condition": "price < 44900",
+      "quantity": 20,
+      "max_loss": 2500,
+      "max_profit": 3800
+    },
+    {
+      "strategy_id": "S9",
+      "instrument": "NIFTY",
+      "entry_condition": "price < 20080",
+      "exit_condition": "price > 20150",
+      "quantity": 80,
+      "max_loss": 3000,
+      "max_profit": 4500
+    },
+    {
+      "strategy_id": "S10",
+      "instrument": "FINNIFTY",
+      "entry_condition": "price < 19480",
+      "exit_condition": "price > 19550",
+      "quantity": 50,
+      "max_loss": 2000,
+      "max_profit": 3000
+    },
+    {
+      "strategy_id": "S11",
+      "instrument": "NIFTY",
+      "entry_condition": "price > 20110",
+      "exit_condition": "price < 20070",
+      "quantity": 45,
+      "max_loss": 1600,
+      "max_profit": 2400
+    },
+    {
+      "strategy_id": "S12",
+      "instrument": "BANKNIFTY",
+      "entry_condition": "price < 44950",
+      "exit_condition": "price > 45100",
+      "quantity": 35,
+      "max_loss": 2200,
+      "max_profit": 3300
+    },
+    {
+      "strategy_id": "S13",
+      "instrument": "NIFTY",
+      "entry_condition": "price > 20105",
+      "exit_condition": "price < 20060",
+      "quantity": 55,
+      "max_loss": 1900,
+      "max_profit": 2900
+    },
+    {
+      "strategy_id": "S14",
+      "instrument": "FINNIFTY",
+      "entry_condition": "price > 19510",
+      "exit_condition": "price < 19470",
+      "quantity": 65,
+      "max_loss": 2100,
+      "max_profit": 3100
+    },
+    {
+      "strategy_id": "S15",
+      "instrument": "BANKNIFTY",
+      "entry_condition": "price > 45050",
+      "exit_condition": "price < 44950",
+      "quantity": 28,
+      "max_loss": 1700,
+      "max_profit": 2700
+    }
+  ]
+}
